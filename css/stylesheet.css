@@ -1,0 +1,88 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+html,
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  background: #FAFAFA;
+  color: #000000;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-weight: normal; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 2px solid #1d1d1d; }
+
+header {
+  min-height: 400px;
+  width: 100%;
+  padding: 1rem 0rem;
+  background: url("../img/background.png"), #1d1d1d;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  border-bottom: solid 8px #E91E63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  header h1 {
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+    header h1 label {
+      font-size: 18pt;
+      background: #E91E63;
+      color: #FFFFFF;
+      padding: .4rem .7rem;
+      margin: 0rem 1rem;
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 12px 12px 12px 0px; }
+  header p {
+    text-align: center;
+    font-size: 24pt; }
+
+section {
+  margin: auto;
+  padding: 1rem 0rem;
+  width: 90%;
+  color: #212121; }
+  section h1 {
+    color: inherit;
+    text-align: center;
+    font-weight: normal;
+    font-size: 28pt; }
+  section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24pt; }
+  section p {
+    font-size: 14pt;
+    text-align: justify;
+    padding: 2rem 3rem;
+    background: #FFFFFF; }
+    section p span.btn {
+      display: block;
+      white-space: nowrap;
+      color: #FFFFFF;
+      background: #E91E63;
+      margin-top: 3rem;
+      padding: .8rem 1rem;
+      border-radius: 2px; }
+      section p span.btn:hover {
+        background: #F12168; }
+      section p span.btn:active {
+        background: #CB1A56; }
+
+footer {
+  text-align: center;
+  padding: 2rem; }
+  footer a {
+    border: none;
+    color: #E91E63; }
